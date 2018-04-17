@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default class ReactComponentWithLifeCycleMethods extends Component {
+export default class LifeCycleMethods extends Component {
   componentDidMount() {
     console.log('------------------');
     console.log('component mounted');

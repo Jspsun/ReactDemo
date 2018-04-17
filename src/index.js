@@ -6,8 +6,10 @@ import Home from './components/Home';
 import PureComponent from './components/PureComponent';
 import PureComponentWithProps from './components/PureComponentWithProps';
 import ReactComponent from './components/ReactComponent';
-import ReactComponentWithState from './components/ReactComponentWithState';
-import ReactComponentWithLifeCycleMethods from './components/ReactComponentWithLifeCycleMethods';
+import State from './components/State';
+import LifeCycleMethods from './components/LifeCycleMethods';
+import ObjectDestructuring from './components/ObjectDestructuring';
+import StyledComponent from './components/StyledComponent';
 
 ReactDOM.render(
   (
@@ -17,8 +19,10 @@ ReactDOM.render(
         <Route exact path="/purecomponent" component={PureComponent} />
         <Route exact path="/reactcomponent" component={ReactComponent} />
         <Route exact path="/purecomponentwithprops" component={PureComponentWithProps} />
-        <Route exact path="/reactcomponentwithstate" component={ReactComponentWithState} />
-        <Route exact path="/reactcomponentwithlifecyclemethods" component={ReactComponentWithLifeCycleMethods} />
+        <Route exact path="/State" component={State} />
+        <Route exact path="/LifeCycleMethods" component={LifeCycleMethods} />
+        <Route exact path="/objectdestructuring" component={ObjectDestructuring} />
+        <Route exact path="/StyledComponent" component={StyledComponent} />
       </Switch>
     </BrowserRouter>
   ),
