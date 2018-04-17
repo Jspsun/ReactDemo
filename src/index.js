@@ -18,7 +18,7 @@ ReactDOM.render(
         <Route exact path="/" component={Home} />
         <Route exact path="/purecomponent" component={PureComponent} />
         <Route exact path="/reactcomponent" component={ReactComponent} />
-        <Route exact path="/purecomponentwithprops" component={PureComponentWithProps} />
+        <Route exact path="/props" component={PureComponentWithProps} />
         <Route exact path="/State" component={State} />
         <Route exact path="/LifeCycleMethods" component={LifeCycleMethods} />
         <Route exact path="/objectdestructuring" component={ObjectDestructuring} />

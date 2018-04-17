@@ -6,9 +6,9 @@ export default function Home() {
     <React.Fragment>
       Navigation
       <ul>
-        <li><Link to="/purecomponent"> Pure Component </Link></li>
         <li><Link to="/reactcomponent"> Standard Component</Link></li>
-        <li><Link to="/purecomponentwithprops"> Pure Component With Props</Link></li>
+        <li><Link to="/purecomponent"> Pure Component </Link></li>
+        <li><Link to="/props"> Props</Link></li>
         <li><Link to="/objectdestructuring"> Object destructuring</Link></li>
         <li><Link to="/state"> State</Link></li>
         <li><Link to="/lifecyclemethods"> Life-Cycle Methods</Link></li>
