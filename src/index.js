@@ -10,6 +10,7 @@ import State from './components/State';
 import LifeCycleMethods from './components/LifeCycleMethods';
 import ObjectDestructuring from './components/ObjectDestructuring';
 import StyledComponent from './components/StyledComponent';
+import ConditionalRendering from './components/ConditionalRendering';
 
 ReactDOM.render(
   (
@@ -21,8 +22,9 @@ ReactDOM.render(
         <Route exact path="/props" component={PureComponentWithProps} />
         <Route exact path="/State" component={State} />
         <Route exact path="/LifeCycleMethods" component={LifeCycleMethods} />
-        <Route exact path="/objectdestructuring" component={ObjectDestructuring} />
         <Route exact path="/StyledComponent" component={StyledComponent} />
+        <Route exact path="/objectdestructuring" component={ObjectDestructuring} />
+        <Route exact path="/conditionalRendering" component={ConditionalRendering} />
       </Switch>
     </BrowserRouter>
   ),

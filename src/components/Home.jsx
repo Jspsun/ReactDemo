@@ -13,6 +13,7 @@ export default function Home() {
         <li><Link to="/state"> State</Link></li>
         <li><Link to="/lifecyclemethods"> Life-Cycle Methods</Link></li>
         <li><Link to="/StyledComponent"> Styled Component</Link> </li>
+        <li><Link to="/conditionalRendering"> Conditionally rendered component</Link> </li>
       </ul>
 
     </React.Fragment>
